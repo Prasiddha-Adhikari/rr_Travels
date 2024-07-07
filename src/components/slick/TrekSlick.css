@@ -1,0 +1,22 @@
+#slider-boxes {
+    display: flex !important;
+}
+
+.slick-slide div{
+    margin: 10px;
+}
+
+.slick-arrow::before {
+    color: red;
+    font-size: 25px;
+}
+
+.slick-prev{
+    top: 250px;
+    left: 60px;
+}
+
+.slick-next {
+    right: 550px;
+    top: 250px;
+}

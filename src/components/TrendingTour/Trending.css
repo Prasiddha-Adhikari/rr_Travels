@@ -1,0 +1,7 @@
+#slider-boxes {
+    display: flex !important;
+}
+.slick-arrow::before {
+    color: red;
+    font-size: 25px;
+}
