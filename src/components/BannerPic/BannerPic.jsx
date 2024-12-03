@@ -8,7 +8,7 @@ const BannerPic = ({ img }) => {
     width:"100%",
   };
   return (
-    <div className="py-11 px-28">
+    <div className="py-11 px-28 font-poppins">
     <div className="h-52 flex" style={bgImage}>
       <div className="absolute bg-opacity-40 flex flex-col justify-center text-white items-center py-12">
         <h1 className="text-xl md:text-5xl font-semibold">

@@ -64,8 +64,14 @@ const Trending = (featured) => {
                   <div className="p-4">
                     <h2 className="text-lg font-bold mb-2">Boat</h2>
                     <p className="text-sm text-gray-600">USA</p>
+                    <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
                     <div className="flex items-center justify-end mt-4">
-                      <div className="text-gray-500 text-xl font-bold">
+                      <div className="text-gray-500 text-sx font-tnin">
                         Rs 5600
                       <div className="text-red-500 line-through">Rs 7000</div>
                       </div>
@@ -92,8 +98,14 @@ const Trending = (featured) => {
                   <div className="p-4">
                     <h2 className="text-lg font-bold mb-2">Boat</h2>
                     <p className="text-sm text-gray-600">USA</p>
+                    <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
                     <div className="flex items-center justify-end mt-4">
-                    <div className="text-gray-500 text-xl font-bold">
+                      <div className="text-gray-500 text-sx font-tnin">
                         Rs 5600
                       <div className="text-red-500 line-through">Rs 7000</div>
                       </div>
@@ -120,8 +132,14 @@ const Trending = (featured) => {
                   <div className="p-4">
                     <h2 className="text-lg font-bold mb-2">Boat</h2>
                     <p className="text-sm text-gray-600">USA</p>
+                    <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
                     <div className="flex items-center justify-end mt-4">
-                    <div className="text-gray-500 text-xl font-bold">
+                      <div className="text-gray-500 text-sx font-tnin">
                         Rs 5600
                       <div className="text-red-500 line-through">Rs 7000</div>
                       </div>
@@ -148,8 +166,14 @@ const Trending = (featured) => {
                   <div className="p-4">
                     <h2 className="text-lg font-bold mb-2">Boat</h2>
                     <p className="text-sm text-gray-600">USA</p>
+                    <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
                     <div className="flex items-center justify-end mt-4">
-                    <div className="text-gray-500 text-xl font-bold">
+                      <div className="text-gray-500 text-sx font-tnin">
                         Rs 5600
                       <div className="text-red-500 line-through">Rs 7000</div>
                       </div>
@@ -176,8 +200,14 @@ const Trending = (featured) => {
                   <div className="p-4">
                     <h2 className="text-lg font-bold mb-2">Boat</h2>
                     <p className="text-sm text-gray-600">USA</p>
+                    <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
                     <div className="flex items-center justify-end mt-4">
-                    <div className="text-gray-500 text-xl font-bold">
+                      <div className="text-gray-500 text-sx font-tnin">
                         Rs 5600
                       <div className="text-red-500 line-through">Rs 7000</div>
                       </div>

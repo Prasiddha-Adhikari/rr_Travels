@@ -36,7 +36,7 @@ const News = () => {
         </ul>
       </div>
       <section>
-        <div className="pt-9">
+        <div className="pt-9 font-poppins">
           <div className="container">
             <div className="flex flex-col  md:flex-row gap-3">
               <div className="flex-initial w-full">
@@ -88,7 +88,7 @@ const News = () => {
                             <li>Escourted Tours</li>
                         </nav>
                     </div>
-                    <div className="flex flex-row pt-5">
+                    <div className="flex flex-row pt-3">
                       <h1 className="pb-56">Tags</h1>{" "}
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <hr class="w-64 h-px my-4 bg-slate-950 border-0 dark:bg-black"></hr>

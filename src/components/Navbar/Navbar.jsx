@@ -51,7 +51,7 @@ const NavBar = () => {
   const closeSignupModal = () => setIsSignupModalOpen(false);
 
   return (
-    <div className="shadow-md bg-white ">
+    <div className="shadow-md bg-white font-poppins ">
       {/* upper Navbar */}
       <div className="bg-primary py-3 dark:text-white duration-200 relative z-40 font-sans px-24 text-sm">
         <div className=" flex justify-between items-center">

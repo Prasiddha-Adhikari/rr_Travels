@@ -36,11 +36,6 @@ const FooterLinks = [
     title: "News",
     link: "/news",
   },
-  {
-    key: "6",
-    title: "Contact",
-    link: "/contact",
-  },
 ];
 const supportLink =[
   {
@@ -82,7 +77,7 @@ const Footer = () => {
               HIMALAYAN YOGA AND EXCURSION
               </div>
               <div>
-                <div className="pb-3">
+                <div className="pb-3 text-xl">
                   Company
                   </div>
                   <ul className="flex flex-col gap-3">
@@ -98,7 +93,7 @@ const Footer = () => {
                     ))}
                   </ul>
               </div>
-              <div><div className="pb-3">Support</div>
+              <div><div className="pb-3  text-xl">Support</div>
               <ul className="flex flex-col gap-3">
                     {supportLink.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">

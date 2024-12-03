@@ -28,7 +28,7 @@ const App = () => {
   }, []);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/rr_Travels/">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

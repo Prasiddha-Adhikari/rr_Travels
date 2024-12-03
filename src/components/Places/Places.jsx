@@ -1,85 +1,7 @@
 import React from "react";
-import PlaceCard from "./PlaceCard";
 import Img1 from "../../assets/places/boat.jpg";
-import Img2 from "../../assets/places/tajmahal.jpg";
-import Img3 from "../../assets/places/water.jpg";
-import Img4 from "../../assets/places/place4.jpg";
-import Img5 from "../../assets/places/place5.jpg";
-import Img6 from "../../assets/places/place6.jpg";
+
 import { Link } from "react-router-dom";
-
-const PlacesData = [
-  {
-    img: Img1,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    discount: 81,
-    type: "Cultural Relax",
-    featured: true,
-  },
-  {
-    img: Img2,
-    title: "Taj Mahal",
-    location: "India",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    discount: 81,
-    type: "Cultural Relax",
-    featured: true,
-  },
-  {
-    img: Img3,
-    title: "Underwater",
-    location: "US",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    discount: 81,
-
-    type: "Cultural Relax",
-  },
-  {
-    img: Img4,
-    title: "Sydney",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    discount: 81,
-
-    type: "Cultural Relax",
-  },
-  {
-    img: Img5,
-    title: "Los Angeles",
-    location: "United states",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    type: "Cultural Relax",
-    discount: 81,
-    featured: true,
-  },
-  {
-    img: Img6,
-    title: "Los Vegas",
-    location: "California",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    originalprice: 6200,
-    discountedprice: 5000,
-    discount: 81,
-    time: 3,
-    type: "Cultural Relax",
-  },
-];
 
 const Places = ({ featured }) => {
   return (
@@ -109,9 +31,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -139,9 +69,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -169,9 +107,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -199,9 +145,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -229,9 +183,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -259,9 +221,17 @@ const Places = ({ featured }) => {
             <div className="p-4 font-poppins">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex font-poppins items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white font-poppins bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
@@ -289,9 +259,17 @@ const Places = ({ featured }) => {
             <div className="p-4">
               <h2 className="text-lg font-bold mb-2">Las Vagas</h2>
               <p className="text-sm text-gray-600">USA</p>
-              <div className="flex items-center justify-between mt-4">
-                <div className="text-red-500 text-xl font-bold">Rs 5600</div>
-                <div className="text-gray-500 line-through">Rs 7000</div>
+              <p className="text-sm text-gray-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores adipisci vitae quos animi eius minus provident repellat,
+                nam voluptas blanditiis facilis, ipsam aspernatur tempora est
+                nobis voluptatem, placeat nesciunt nisi.
+              </p>
+              <div className="flex items-center justify-end mt-4">
+                <div className="text-gray-500 text-sx font-light">
+                  Rs 5600
+                  <div className="text-red-500 line-through">Rs 7000</div>
+                </div>
               </div>
               <div className="text-white bg-red-700 rotate-45 -right-8 text-center text-sm font-bold absolute top-0 w-20 pt-3">
                 -80%
